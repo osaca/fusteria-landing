@@ -47,8 +47,8 @@ html, body {
 }
 
 .content-b img {
-   height: 50%;
-   margin-top: 15%;
+   height: 35%;
+   margin-top: 0;
 }
 
 section#social-networks{
@@ -64,14 +64,14 @@ div.social-circle{
    display: block;
    float: left;
    font-size: 40px;
-   height: 100px;
+   height: 2em;
    margin-left: 20px;
    position: relative;
-   width: 100px;
+   width: 2em;
 
-   -webkit-border-radius: 50px;
-   -moz-border-radius: 50px;
-   border-radius: 50px;
+   -webkit-border-radius: 1em;
+   -moz-border-radius: 1em;
+   border-radius: 1em;
 
    zoom: 1;
    filter: alpha(opacity=80);
@@ -119,35 +119,37 @@ section {
 /* Media Queries */
 	@media only screen and (max-width: 959px) {
       .content-b img {
-         height: 50%;
-         margin-top: 15%;
+         /*height: 50%;
+         margin-top: 15%;*/
       }
    }
 
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
       .content-b img {
-         height: 55%;
-         margin-top: 25.236%;
+         /*height: 55%;
+         margin-top: 25.236%;*/
       }
    }
 
 	@media only screen and (max-width: 767px) {
       .content-b img {
-         height: 50%;
-         margin-top: 15%;
+         /*height: 50%;
+         margin-top: 15%;*/
       }
    }
 
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
       .content-b img {
-         height: 35%;
-         margin-top: 8.5%;
+         /*height: 35%;
+         margin-top: 8.5%;*/
+         height: 3em;
+         width: 3em;
       }
    }
 
 	@media only screen and (max-width: 479px) {
       .content-b img {
-         height: 35%;
-         margin-top: 30%;
+         /*height: 35%;
+         margin-top: 30%;*/
       }
    }
